@@ -1,0 +1,56 @@
+header {
+    text-align: center;
+    background: url("../img/destaque.jpeg") no-repeat center center;
+    background-size: cover;
+    padding: 1rem 0;
+}
+#nav-bar {
+    display: flex;
+    justify-content: center;
+}
+#nav-bar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .8em;
+    background: rgba(255, 255, 255, .2);
+    margin: 0 .17em;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    transition: background-color .5s ease-out;
+}
+#nav-bar a:hover {
+    background-color: #50A3A7;
+}
+.header .sec-title,
+.header .sec-inscreva {
+    text-transform: uppercase;
+}
+.header .sec-title {
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, .4);
+    font-size: 2.5em;
+}
+.header .sec-title h1 {
+    color: white;
+}
+.header .sec-title h2 {
+    font-size: .8em;
+    color: #64FF64;
+    margin-bottom: 2rem;
+}
+.header .sec-inscreva a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1.1em 1.7em;
+    background-color: #50A3A7;
+    border-radius: 5px;
+    font-size: .75em;
+}
+@media (min-width: 768px) {
+    .header .sec-title {
+        font-size: 4em;
+    }
+}

@@ -1,0 +1,4 @@
++--
+Dica para encontrar as cores de um layout já existente
+
+http://html-color-codes.info/colors-from-image/
