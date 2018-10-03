@@ -1,0 +1,41 @@
+img {
+    max-width: 100%;
+}
+.panel-palestrantes {
+    background: #EF7247;
+    text-align: center;
+    padding: 1rem;
+}
+.panel-palestrantes h2,
+.panel-palestrantes h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+.panel-palestrantes h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.panel-palestrantes h3 {
+    font-size: 1.3em;
+}
+.lista-palestrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lista-palestrantes > * {
+    background: white;
+    border-radius: 8px;
+    width: 240px;
+    padding: .8rem .3rem;
+    margin: .5rem;
+}
+.fig-palestrante img {
+    border-radius: 50%;
+}
+.desc-palestrante > * {
+    margin-bottom: .4em;
+}
+.desc-palestrante .profission {
+    font-weight: bold;
+}
