@@ -8,14 +8,15 @@
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/about.css">
 <link rel="stylesheet" href="css/palestrantes.css">
+<link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
 <header class="header">
     
     <nav>
         <ul id="nav-bar">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Palestrantes</a></li>
+            <li><a href="#panel-about">Sobre</a></li>
+            <li><a href="#panel-palestrantes">Palestrantes</a></li>
         </ul>
     </nav>
 
@@ -26,12 +27,12 @@
         </section>
 
         <section class="sec-inscreva">
-            <a href="#">inscreva-se</a>
+            <a href="#panel-form">inscreva-se</a>
         </section>
     </div>
 
 </header>
-<section class="panel-about">
+<section class="panel-about" id="panel-about">
     <h2>Muito conteúdo: do frontend ao backend</h2>
     <h3>30 de Maio de 2017 - na Cidade Maravilhosa</h3>
     <p>
@@ -45,7 +46,7 @@
         estar aqui.
     </p>
 </section>
-<section class="panel-palestrantes">
+<section class="panel-palestrantes" id="panel-palestrantes">
     <h2>Palestrantes</h2>
     <h3>Aprenda com paestrantes que são referência no mercado</h3>
     <ul class="lista-palestrantes">
@@ -79,7 +80,47 @@
                 <p class="description">To be or not to be MEAN</p>
             </div>
         </li>
+        <li>
+            <div class="fig-palestrante"><img src="img/palestrantes/placeholder.jpeg" alt="Palestrante"></div>
+            <div class="desc-palestrante">
+                <p class="author">Flávio Almeida</p>
+                <p class="profission">Desenvolvedor e instrutor da Caelum</p>
+                <p class="description">To be or not to be MEAN</p>
+            </div>
+        </li>
+        <li>
+            <div class="fig-palestrante"><img src="img/palestrantes/placeholder.jpeg" alt="Palestrante"></div>
+            <div class="desc-palestrante">
+                <p class="author">Flávio Almeida</p>
+                <p class="profission">Desenvolvedor e instrutor da Caelum</p>
+                <p class="description">To be or not to be MEAN</p>
+            </div>
+        </li>
+        <li>
+            <div class="fig-palestrante"><img src="img/palestrantes/placeholder.jpeg" alt="Palestrante"></div>
+            <div class="desc-palestrante">
+                <p class="author">Flávio Almeida</p>
+                <p class="profission">Desenvolvedor e instrutor da Caelum</p>
+                <p class="description">To be or not to be MEAN</p>
+            </div>
+        </li>
     </ul>
 </section>
+<section class="panel-form" id="panel-form">
+    <form action="">
+        <legend>Seus dados</legend>
+        <div class="form-field">
+            <label for="nome">Nome</label>
+            <input id="nome">
+        </div>
+        <div class="form-field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+            </div>
+        <button>realizar inscrição</button>
+    </form>
+</section>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
